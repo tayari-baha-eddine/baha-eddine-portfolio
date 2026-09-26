@@ -64,7 +64,7 @@ interface Certification {
 const EXPERIENCES: Experience[] = [
   {
     company: "Safran Electronics & Defense",
-    logo: "/src/assets/images/regenerated_image_1790284839980.png",
+    logo: "/images/regenerated_image_1790284839980.png",
     role: "Engineering Intern",
     period: "29 June 2026 - 31 Aug 2026",
     description: [
@@ -77,7 +77,7 @@ const EXPERIENCES: Experience[] = [
   },
   {
     company: "Tunisie Câbles / OneTech Group",
-    logo: "/src/assets/images/regenerated_image_1790284840483.png",
+    logo: "/images/regenerated_image_1790284840483.png",
     role: "Automation Intern",
     period: "01 July 2025 - 01 Aug 2025",
     description: [
@@ -286,14 +286,14 @@ const CERTIFICATIONS: Certification[] = [
 const EDUCATION = [
   {
     institution: "ENIG - National Engineering School of Gabes",
-    logo: "/src/assets/images/regenerated_image_1790284841798.png",
+    logo: "/images/regenerated_image_1790284841798.png",
     degree: "Electrical and Automation Engineering",
     period: "2024 - Present",
     focus: "Embedded Systems, Control Theory, Robotics"
   },
   {
     institution: "IPEIB - Preparatory Institute for Engineering Studies",
-    logo: "/src/assets/images/regenerated_image_1790284841977.png",
+    logo: "/images/regenerated_image_1790284841977.png",
     degree: "Mathematics & Physics (Pre-Engineering)",
     period: "2021 - 2024",
     focus: "Advanced Calculus, Physics, Engineering Sciences"
@@ -500,7 +500,7 @@ export default function App() {
                 className="w-full h-full object-cover rounded-sm grayscale-[20%] hover:grayscale-0 transition-all duration-700 overflow-hidden relative"
               >
                  <img 
-                  src="/src/assets/images/1775004971966.jpg" 
+                  src="/images/1775004971966.jpg" 
                   alt="Baha Eddine Tayari" 
                   className="w-full h-full object-cover"
                   style={{
