@@ -208,7 +208,18 @@ const PROJECTS: Project[] = [
 
 const CERTIFICATIONS: Certification[] = [
   {
-    id: "CERT.01",
+    id: "CERT.01",  
+    title: "Microsoft Azure for AI and Machine Learning",
+    issuer: "Microsoft AI Skills",
+    date: "October 2026",
+    skills: ["Artificial Intelligence (AI)", "Machine Learning"],
+    link: "https://www.coursera.org/account/accomplishments/verify/AU6466JDYCG6",
+    pdf: "/certificates/microsoft-azure-ai-machine-learning.pdf",
+    category: "AI / ML",
+    highlight: true
+  },
+  {
+    id: "CERT.02",
     title: "EF SET English Certificate 84/100 — C2 Proficient",
     issuer: "EF SET",
     date: "August 2026",
@@ -220,7 +231,7 @@ const CERTIFICATIONS: Certification[] = [
     score: "84/100 C2 Proficient"
   },
   {
-    id: "CERT.02",
+    id: "CERT.03",
     title: "Machine Learning at the Edge on Arm",
     issuer: "Arm",
     date: "June 2026",
@@ -232,7 +243,7 @@ const CERTIFICATIONS: Certification[] = [
     highlight: true
   },
   {
-    id: "CERT.03",
+    id: "CERT.04",
     title: "Digital Safety and Security Awareness",
     issuer: "Cisco",
     date: "August 2025",
@@ -242,7 +253,7 @@ const CERTIFICATIONS: Certification[] = [
     category: "SECURITY"
   },
   {
-    id: "CERT.04",
+    id: "CERT.05",
     title: "Python Essentials",
     issuer: "Cisco",
     date: "August 2025",
@@ -252,7 +263,7 @@ const CERTIFICATIONS: Certification[] = [
     category: "PROGRAMMING"
   },
   {
-    id: "CERT.05",
+    id: "CERT.06",
     title: "Introduction to IoT",
     issuer: "Cisco",
     date: "July 2025",
@@ -262,7 +273,7 @@ const CERTIFICATIONS: Certification[] = [
     category: "IOT"
   },
   {
-    id: "CERT.06",
+    id: "CERT.07",
     title: "Data Analytics Essentials",
     issuer: "Cisco",
     date: "May 2025",
@@ -272,7 +283,7 @@ const CERTIFICATIONS: Certification[] = [
     category: "DATA"
   },
   {
-    id: "CERT.07",
+    id: "CERT.08",
     title: "Modern AI",
     issuer: "Cisco",
     date: "May 2025",
