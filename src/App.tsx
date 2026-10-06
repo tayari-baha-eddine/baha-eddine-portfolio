@@ -150,55 +150,69 @@ const EXPERIENCES: Experience[] = [
 const PROJECTS: Project[] = [
   {
     id: "PRJ.01",
+    title: "Heterogeneous CPU-GPU HPC Engine",
+    teaser: "When does a dynamic scheduler actually beat picking one device and staying there?",
+    tech: ["C++17", "CUDA", "OpenMP", "cuBLAS", "CMake", "Streamlit"],
+    pdf: "/projects/heterogeneous-hpc.pdf"
+  },
+  {
+    id: "PRJ.02",
+    title: "Real-Time Driver Monitoring System",
+    teaser: "Can three deep learning models share one GPU and one webcam without missing a frame?",
+    tech: ["Python", "PyTorch", "YOLOv8", "MediaPipe", "OpenCV", "Streamlit"],
+    pdf: "/projects/driver-monitoring.pdf"
+  },
+  {
+    id: "PRJ.03",
     title: "ESP32 Predictive Maintenance Node",
     teaser: "Can an embedded system turn machine measurements into an early warning for equipment degradation?",
     tech: ["ESP32", "LoRa", "IoT", "Python", "Streamlit"],
     pdf: "/projects/esp32-predictive-maintenance.pdf"
   },
   {
-    id: "PRJ.02",
+    id: "PRJ.04",
     title: "STM32 Bare-Metal Acquisition System",
     teaser: "What happens when you build an embedded system closer to the hardware instead of relying on high-level abstractions?",
     tech: ["STM32", "C", "ARM Cortex-M3", "Bare-Metal"],
     pdf: "/projects/stm32-bare-metal.pdf"
   },
   {
-    id: "PRJ.03",
+    id: "PRJ.05",
     title: "Automated Motor Rodage Tool",
     teaser: "How can a repetitive manual motor operation be transformed into a controlled and repeatable industrial process?",
     tech: ["Arduino Mega", "Motor Control", "Proteus", "Onshape"],
     pdf: "/projects/automated-rodage.pdf"
   },
   {
-    id: "PRJ.04",
+    id: "PRJ.06",
     title: "Automated Granulate Loading System",
     teaser: "How can an extrusion process automatically manage material loading while giving operators real-time control?",
     tech: ["Siemens S7-1200", "TIA Portal", "WinCC", "HMI"],
     pdf: "/projects/granulate-loading.pdf"
   },
   {
-    id: "PRJ.05",
+    id: "PRJ.07",
     title: "Smart House Monitoring Platform",
     teaser: "Can one interface connect monitoring, control and data visualization into one intelligent home system?",
     tech: ["Python", "Streamlit", "SQLite", "Plotly"],
     pdf: "/projects/smart-house.pdf"
   },
   {
-    id: "PRJ.06",
+    id: "PRJ.08",
     title: "Dual-Axis Solar Tracker",
     teaser: "How can automated positioning be used to continuously optimize photovoltaic energy capture?",
     tech: ["PV", "Control Systems", "PVsyst", "Automation"],
     pdf: "/projects/dual-axis-solar-tracker.pdf"
   },
   {
-    id: "PRJ.07",
+    id: "PRJ.09",
     title: "Smart Grid Campus",
     teaser: "What would an intelligent campus look like if energy production, consumption and monitoring were connected?",
     tech: ["Smart Grid", "IoT", "Energy", "Control"],
     pdf: "/projects/smart-grid-campus.pdf"
   },
   {
-    id: "PRJ.08",
+    id: "PRJ.10",
     title: "Cyber-Physical Systems Engine",
     teaser: "How can sensing, embedded control, communication and AI work together as one intelligent physical system?",
     tech: ["Cyber-Physical Systems", "Embedded", "IoT", "Edge AI"],
